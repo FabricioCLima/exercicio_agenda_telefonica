@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="Exemplo de descrição para o meu site.">
+    <meta name="keywords" content="palavra-chaves,separadas,por,virgula">
+    <meta name="author" content="Fabricio Cavalcante">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/img/agenda_aba.png" type="image/x-icon">
+    <title>Agenda de contato </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header><!-- Cabeçalho -->
+            <img width="7%" src="assets/img/agenda.png" alt="Logo de agenda">
+            <h1>Agenda de contato</h1>
+        </header><!-- Cabeçalho -->
+
+        <form>
+            <div class="input-contato">
+
+                <div class="input-text">
+                    <label for="nome">Nome:</label>
+                    <input type="text" required placeholder="Contato" id="nome">
+                </div><!-- input-text -->
+
+                <div class="input-tel">
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" required placeholder="Telefone" id="tel">
+                </div><!-- input-tel -->
+                
+            </div><!-- input-contato -->
+
+            <button type="submit">Salvar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Salvo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Fabricio</td>
+                    <td>11 951788985</td>
+                    <td>salvo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div><!-- container -->
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
